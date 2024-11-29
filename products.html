@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВолКомТех - Вологодская Коммунальная Техника</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./img/logowt.png" type="image/x-icon">
+</head>
+<body>
+    <header id="head">
+        <div class="header-row-top">
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+                <p>Вологодская <br> Коммунальная <br> Техника</p>
+            </div>
+            <div class="btn-contacts">
+                <button onclick="openModal('modal-overlay-1')">ОСТАВИТЬ ЗАЯВКУ</button>
+                <div class="contacts">
+                    <a href="mailto:volkomtech@mail.ru">volkomtech@mail.ru</a>
+                    <a href="tel:+7(8172)-96-36-96">8(8172)-96-36-96</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu-row">
+            <a href="./index.html#about">О компании</a>
+            <a href="./products.html">Продукция</a>
+            <a href="./index.html#service">Услуги</a>
+            <a href="#faq">Вопросы</a>
+            <a href="#contacts">Контакты</a>
+        </div>
+    </header>
+    <section class="products">
+        <h1>ПРОДУКЦИЯ</h1>
+            <p class="wbg">"Техника, которая работает для вас"</p>
+            <div class="con-cards">
+                <div class="card-row">
+                    <div class="card">
+                        <img src="./img/1.png" alt="">
+                        <p>Машина для уборки улиц VK-3000</p>
+                        <p>Описание:
+                            Эффективная уборочная машина 
+                            для улиц с минимальным 
+                            энергопотреблением. Идеально 
+                            подходит для городских территорий, 
+                            парков и тротуаров.</p>
+                        <button onclick="openModal('modal-overlay-2')">ПОДРОБНЕЕ</button>
+                    </div>
+                    <div class="card">
+                        <img src="./img/2.png" alt="">
+                        <p>Поломоечная машина VK-2000</p>
+                        <p>Описание:
+                            Компактная поломоечная машина для поддержания чистоты в торговых центрах, офисах и других коммерческих пространствах. Простота в управлении и надежность.</p>
+                        <button onclick="openModal('modal-overlay-3')">ПОДРОБНЕЕ</button>
+                    </div>
+                    <div class="card">
+                        <img src="./img/3.png" alt="">
+                        <p>Промышленный мойщик VK-Pro</p>
+                        <p>Описание:
+                            Мощное решение для уборки складов, производственных площадок и промышленных объектов. Надежность и высокая производительность в самых сложных условиях.</p>
+                        <button onclick="openModal('modal-overlay-4')">ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="card">
+                        <img src="./img/4.png" alt="">
+                        <p>Пылесос для улицы VK-Air</p>
+                        <p>Описание:
+                            Современное решение для уборки парковок, автостоянок и прилегающих территорий. Технология вакуумного всасывания обеспечивает чистоту в самых далеких местах.</p>
+                        <button onclick="openModal('modal-overlay-5')">ПОДРОБНЕЕ</button>
+                    </div>
+                    <div class="card">
+                        <img src="./img/5.png" alt="">
+                        <p>Мобильная мойка VK-200PRO</p>
+                        <p>Описание:
+                            Компактная мойка для фасадов, заборов и автомобилей. Оснащена баком для воды, широкими колесами и длинным шлангом для удобства пользования в любых условиях.</p>
+                        <button onclick="openModal('modal-overlay-6')">ПОДРОБНЕЕ</button>
+                    </div>
+                    <div class="card">
+                        <img src="./img/6.png" alt="">
+                        <p>Роботизированная поломоечная машина VKAutoScrub-100</p>
+                        <p>Описание:
+                            Автономная поломоечная машина с системой навигации и предотвращения столкновений. Очищает большие площади без оператора.</p>
+                        <button onclick="openModal('modal-overlay-7')">ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="advantages">
+        <div class="about-left service advantages">
+            <h1>Преимущества</h1>
+        </div>
+        <div class="advantages-row">
+            <div class="case-service">
+                <img src="./img/quality 1.png" alt=""><p>Гарантия качества</p>
+            </div>
+            <div class="case-service">
+                <img src="./img/clock.png" alt=""><p>Быстрая доставка</p>
+            </div>
+            <div class="case-service">
+                <img src="./img/sensitivity.png" alt=""><p>Индивидуальный <br> подход</p>
+            </div>
+            <div class="case-service">
+                <img src="./img/discount_13316055.png" alt=""><p>Отличные цены</p>
+            </div>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <div class="about-left service advantages">
+            <h1>ВОПРОСЫ</h1>
+        </div>
+        <div class="faq-con">
+            <div class="faq-item">
+                <div class="faq-question">
+                    Какая гарантия предоставляется на продукцию?
+                    <span class="faq-toggle"><img src="./img/arrow-flip.png" alt=""></span>
+                </div>
+                <div class="faq-answer">
+                    Мы предоставляем гарантию на всю технику сроком до 2 лет. Для получения более детальной информации обратитесь в наш отдел обслуживания клиентов.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Как заказать технику для демонстрации?
+                    <span class="faq-toggle"><img src="./img/arrow-flip.png" alt=""></span>
+                </div>
+                <div class="faq-answer">
+                    Вы можете связаться с нашим менеджером через форму на сайте или позвонить по телефону. Мы организуем демонстрацию в удобное для вас время.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Доступен ли сервис по ремонту и обслуживанию техники?
+                    <span class="faq-toggle"><img src="./img/arrow-flip.png" alt=""></span>
+                </div>
+                <div class="faq-answer">
+                    Да, у нас есть специализированный сервисный центр, где наши специалисты проводят ремонт и обслуживание техники.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Можно ли приобрести технику в лизинг?
+                    <span class="faq-toggle"><img src="./img/arrow-flip.png" alt=""></span>
+                </div>
+                <div class="faq-answer">
+                    Мы предлагаем гибкие условия лизинга в сотрудничестве с партнёрами. Для получения информации свяжитесь с нашим отделом продаж.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Есть ли обучение для сотрудников по работе с техникой?
+                    <span class="faq-toggle"><img src="./img/arrow-flip.png" alt=""></span>
+                </div>
+                <div class="faq-answer">
+                    Да, мы предоставляем обучение для ваших сотрудников, чтобы они могли эффективно использовать нашу продукцию.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Есть ли обучение для сотрудников по работе с техникой?
+                    <span class="faq-toggle"><img src="./img/arrow-flip.png" alt=""></span>
+                </div>
+                <div class="faq-answer">
+                    Да, мы предоставляем обучение для ваших сотрудников, чтобы они могли эффективно использовать нашу продукцию.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ask-quest">
+        <p>Остались вопросы?</p>
+        <button onclick="openModal('modal-overlay-1')">ОСТАВИТЬ ЗАЯВКУ</button>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="footer-container">
+            <div class="fct">
+                <div class="footer-logo">
+                    <img src="./img/logobr.png" alt="Логотип ВолКомТех">
+                    <p>Вологодская <br> коммунальная <br> техника</p>
+                </div>
+                <div class="footer-menu">
+                    <div class="footer-column">
+                        <h3>Меню</h3>
+                        <ul>
+                            <li><a href="./index.html#about">О компании</a></li>
+                            <li><a href="./products.html">Продукция</a></li>
+                            <li><a href="./index.html#service">Услуги</a></li>
+                            <li><a href="#faq">Вопросы</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Продукты</h3>
+                        <ul class="inter">
+                            <li><a onclick="openModal('modal-overlay-2')">VK-3000</a></li>
+                            <li><a onclick="openModal('modal-overlay-3')">VK-2000</a></li>
+                            <li><a onclick="openModal('modal-overlay-4')">VK-Pro</a></li>
+                            <li><a onclick="openModal('modal-overlay-5')">VK-Air</a></li>
+                            <li><a onclick="openModal('modal-overlay-6')">VK-200PRO</a></li>
+                            <li><a onclick="openModal('modal-overlay-7')">VKAutoScrub-100</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="fcb">
+                <div class="footer-contacts">
+                    <div class="social-media">
+                        <h3>Соц. сети</h3>
+                        <a href="#"><img src="./img/tg.png" alt="tg"></a>
+                        <a href="#"><img src="./img/vk.png" alt="vk"></a>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Контакты</h3>
+                    <p><a href="mailto:volkomtech@mail.ru">volkomtech@mail.ru</a></p>
+                    <p><a href="tel:+78172963696">8(8172)-96-36-96</a></p>
+                    </div>
+                    <div class="arrow-top">
+                        <img src="./img/arrowtop.png" onclick="location.href='#head';" style="cursor: pointer;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>ОАО «Волкомтех» © 2024, Все права защищены</p>
+        </div>
+    </footer>
+    <div class="modal-overlay" id="modal-overlay-1">
+        <div class="modal-window">
+            <button class="modal-close" id="modal-close-1">x</button>
+            <form class="modal-form">
+                <div class="form-left">
+                    <input type="text" class="modal-input" placeholder="Введите ваше имя*" required>
+                    <input type="tel" class="modal-input" placeholder="Введите ваш телефон*" required>
+                    <label class="modal-checkbox">
+                        <input type="checkbox" required>
+                        <p>Я даю согласие на обработку   <a href="./politics.html" class="underline"> персональных данных</a></p>
+                    </label></div>
+                
+                <button type="submit" class="modal-button">ОСТАВИТЬ ЗАЯВКУ</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modal-overlay-2">
+        <div class="modal-window-2">
+            <div class="con-top-mod">
+                <img src="./img/1.png" alt="">
+                <p>Машина для уборки улиц VK-3000 <br>
+                    Гарантия: 2 года сервисного обслуживания. <br>
+                    Описание: <br> VK-3000 — это современная уборочная машина, специально разработанная для использования на городских территориях. Она оснащена инновационной системой энергосбережения, что делает её экологически безопасной и экономичной в эксплуатации. VK-3000 легко справляется с уборкой тротуаров, парков, велосипедных дорожек и других общественных зон. <br>
+                    Цена: 3 млн. рублей
+                </p>
+            </div>
+            <div class="con-text-mod">
+                <p>
+                    Основные характеристики:<br>
+                    • Эффективность: Убирает до 95% мелкого мусора за один проход. <br>
+                    • Минимальное энергопотребление: Технология EcoDrive снижает затраты энергии до 30%. <br>
+                    • Компактность: Узкий корпус позволяет работать в труднодоступных местах. <br>
+                    • Удобство эксплуатации: Эргономичная кабина оператора с панелью управления.<br>
+                    • Экологичность: Минимальные выбросы в окружающую среду. <br> 
+                    Дополнительные функции:
+                    Система сбора мусора: 
+                    <br>
+                    • Вместительный бак объёмом 300 литров.
+                    <br>
+                    • Вращающиеся щётки: Высокая эффективность очистки даже на неровных поверхностях.
+                    <br>
+                    • Многоуровневая фильтрация пыли: Подходит для использования в зонах с высоким пешеходным трафиком. <br>
+                    Примечание: Доступна демонстрация техники. Для заказа или получения более детальной информации свяжитесь с нашим отделом продаж.
+                </p>
+            </div>
+            <button class="modal-close" id="modal-close-2">x</button>
+            <form class="modal-form-2">
+                <div class="form-left">
+                    <input type="text" class="modal-input" placeholder="Введите ваше имя*" required>
+                    <input type="tel" class="modal-input" placeholder="Введите ваш телефон*" required>
+                    <label class="modal-checkbox">
+                        <input type="checkbox" required>
+                        <p>Я даю согласие на обработку   <a href="./politics.html" class="underline"> персональных данных</a></p>
+                    </label></div>
+                
+                <button type="submit" class="modal-button">ОСТАВИТЬ ЗАЯВКУ</button>
+            </form>
+        </div>
+    </div>
+<div class="modal-overlay" id="modal-overlay-3">
+    <div class="modal-window-2">
+        <div class="con-top-mod">
+            <img src="./img/2.png" alt="Поломоечная машина VK-2000">
+            <p>
+                <b>Поломоечная машина VK-2000</b><br>
+                <b>Гарантия:</b> 2 года сервисного обслуживания.<br>
+                <b>Описание:</b> <br>
+                Компактная поломоечная машина для поддержания чистоты в торговых центрах, офисах и других коммерческих пространствах. Простота в управлении и надежность.
+                <br>
+                    Цена: 250 тыс. рублей
+            </p>
+        </div>
+        <div class="con-text-mod">
+            <p>
+                <b>Основные характеристики:</b><br>
+                • Компактность: подходит для узких пространств.<br>
+                • Продуктивность: идеально для ежедневной уборки.<br>
+                • Простота управления: интуитивно понятные элементы управления.<br>
+                • Эргономика: удобство для длительного использования.<br>
+                <b>Дополнительные функции:</b><br>
+                • Вместительный бак: до 50 литров.<br>
+                • Долговечные щетки: устойчивы к износу.<br>
+                • Энергоэффективность: минимальное энергопотребление.
+            </p>
+        </div>
+        <button class="modal-close" id="modal-close-3">x</button>
+        <form class="modal-form-2">
+            <div class="form-left">
+                <input type="text" class="modal-input" placeholder="Введите ваше имя*" required>
+                <input type="tel" class="modal-input" placeholder="Введите ваш телефон*" required>
+                <label class="modal-checkbox">
+                    <input type="checkbox" required>
+                    <p>Я даю согласие на обработку <a href="./politics.html"class="underline">персональных данных</a></p>
+                </label>
+            </div>
+            <button type="submit" class="modal-button">ОСТАВИТЬ ЗАЯВКУ</button>
+        </form>
+    </div>
+</div>
+<div class="modal-overlay" id="modal-overlay-4">
+    <div class="modal-window-2">
+        <div class="con-top-mod">
+            <img src="./img/3.png" alt="Промышленный мойщик VK-Pro">
+            <p>
+                <b>Промышленный мойщик VK-Pro</b><br>
+                <b>Гарантия:</b> 3 года сервисного обслуживания.<br>
+                <b>Описание:</b> <br>
+                Мощное решение для уборки складов, производственных площадок и промышленных объектов. Надежность и высокая производительность в самых сложных условиях.<br>
+                Цена: 15 млн. рублей
+            </p>
+        </div>
+        <div class="con-text-mod">
+            <p>
+                <b>Основные характеристики:</b><br>
+                • Мощность: справляется с самыми сложными загрязнениями.<br>
+                • Устойчивость: высокая прочность конструкции.<br>
+                • Удобство: управление одной рукой.<br>
+                <b>Дополнительные функции:</b><br>
+                • Вместительный бак для воды.<br>
+                • Усиленные колеса для перемещения.<br>
+                • Фильтрация воды для долговечности.
+            </p>
+        </div>
+        <button class="modal-close" id="modal-close-4">x</button>
+        <form class="modal-form-2">
+            <div class="form-left">
+                <input type="text" class="modal-input" placeholder="Введите ваше имя*" required>
+                <input type="tel" class="modal-input" placeholder="Введите ваш телефон*" required>
+                <label class="modal-checkbox">
+                    <input type="checkbox" required>
+                    <p>Я даю согласие на обработку <a href="./politics.html"class="underline">персональных данных</a></p>
+                </label>
+            </div>
+            <button type="submit" class="modal-button">ОСТАВИТЬ ЗАЯВКУ</button>
+        </form>
+    </div>
+</div>
+
+<div class="modal-overlay" id="modal-overlay-5">
+    <div class="modal-window-2">
+        <div class="con-top-mod">
+            <img src="./img/4.png" alt="Пылесос для улицы VK-Air">
+            <p>
+                <b>Пылесос для улицы VK-Air</b><br>
+                <b>Гарантия:</b> 2 года сервисного обслуживания.<br>
+                <b>Описание:</b> <br>
+                Современное решение для уборки парковок, автостоянок и прилегающих территорий. Технология вакуумного всасывания обеспечивает чистоту в самых далеких местах.<br>
+                Цена: 50 тыс. рублей
+            </p>
+        </div>
+        <div class="con-text-mod">
+            <p>
+                <b>Основные характеристики:</b><br>
+                • Высокая мощность всасывания.<br>
+                • Мобильность: легкость в транспортировке.<br>
+                • Надежность: подходит для частого использования.<br>
+                <b>Дополнительные функции:</b><br>
+                • Регулируемый уровень мощности.<br>
+                • Защита от перегрева двигателя.<br>
+                • Съемный контейнер для мусора.
+            </p>
+        </div>
+        <button class="modal-close" id="modal-close-5">x</button>
+        <form class="modal-form-2">
+            <div class="form-left">
+                <input type="text" class="modal-input" placeholder="Введите ваше имя*" required>
+                <input type="tel" class="modal-input" placeholder="Введите ваш телефон*" required>
+                <label class="modal-checkbox">
+                    <input type="checkbox" required>
+                    <p>Я даю согласие на обработку <a href="./politics.html"class="underline">персональных данных</a></p>
+                </label>
+            </div>
+            <button type="submit" class="modal-button">ОСТАВИТЬ ЗАЯВКУ</button>
+        </form>
+    </div>
+</div>
+<div class="modal-overlay" id="modal-overlay-6">
+    <div class="modal-window-2">
+        <div class="con-top-mod">
+            <img src="./img/5.png" alt="Мобильная мойка VK-200PRO">
+            <p>
+                <b>Мобильная мойка VK-200PRO</b><br>
+                <b>Гарантия:</b> 1 год сервисного обслуживания.<br>
+                <b>Описание:</b> <br>
+                Компактная мойка для фасадов, заборов и автомобилей. Оснащена баком для воды, широкими колесами и длинным шлангом для удобства пользования в любых условиях.<br>
+                Цена: 75 тыс. рублей
+            </p>
+        </div>
+        <div class="con-text-mod">
+            <p>
+                <b>Основные характеристики:</b><br>
+                • Компактность: удобство хранения и перемещения.<br>
+                • Простота использования: подключение к стандартным источникам воды.<br>
+                • Надежность: долговечный металлический корпус.<br>
+                <b>Дополнительные функции:</b><br>
+                • Регулируемое давление воды.<br>
+                • Широкие колеса для устойчивости.<br>
+                • Фильтр для предотвращения засоров.
+            </p>
+        </div>
+        <button class="modal-close" id="modal-close-6">x</button>
+        <form class="modal-form-2">
+            <div class="form-left">
+                <input type="text" class="modal-input" placeholder="Введите ваше имя*" required>
+                <input type="tel" class="modal-input" placeholder="Введите ваш телефон*" required>
+                <label class="modal-checkbox">
+                    <input type="checkbox" required>
+                    <p>Я даю согласие на обработку <a href="./politics.html"class="underline">персональных данных</a></p>
+                </label>
+            </div>
+            <button type="submit" class="modal-button">ОСТАВИТЬ ЗАЯВКУ</button>
+        </form>
+    </div>
+</div>
+
+<div class="modal-overlay" id="modal-overlay-7">
+    <div class="modal-window-2">
+        <div class="con-top-mod">
+            <img src="./img/6.png" alt="Роботизированная поломоечная машина VKAutoScrub-100">
+            <p>
+                <b>Роботизированная поломоечная машина VKAutoScrub-100</b><br>
+                <b>Гарантия:</b> 2 года сервисного обслуживания.<br>
+                <b>Описание:</b> <br>
+                Автономная поломоечная машина с системой навигации и предотвращения столкновений. Очищает большие площади без участия оператора.<br>
+                Цена: 25 тыс. рублей
+            </p>
+        </div>
+        <div class="con-text-mod">
+            <p>
+                <b>Основные характеристики:</b><br>
+                • Автономность: интеллектуальная система навигации.<br>
+                • Эффективность: идеальна для уборки больших помещений.<br>
+                • Безопасность: система предотвращения столкновений.<br>
+                <b>Дополнительные функции:</b><br>
+                • Вместительный бак для воды.<br>
+                • Долговечные щетки.<br>
+                • Низкий уровень шума для работы в общественных местах.
+            </p>
+        </div>
+        <button class="modal-close" id="modal-close-7">x</button>
+        <form class="modal-form-2">
+            <div class="form-left">
+                <input type="text" class="modal-input" placeholder="Введите ваше имя*" required>
+                <input type="tel" class="modal-input" placeholder="Введите ваш телефон*" required>
+                <label class="modal-checkbox">
+                    <input type="checkbox" required>
+                    <p>Я даю согласие на обработку <a  href="./politics.html" class="underline">персональных данных</a></p>
+                </label>
+            </div>
+            <button type="submit" class="modal-button">ОСТАВИТЬ ЗАЯВКУ</button>
+        </form>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      spaceBetween: 20,
+        autoplay: {
+            delay: 3000,
+            reverseDirection: false,
+            disableOnInteraction: false,
+        },
+      slidesPerView: 3,
+      breakpoints: {
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        425: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        375: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        320: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        }
+    }
+    });
+  </script>
+  <script>
+    document.querySelectorAll('.faq-item').forEach(item => {
+    item.addEventListener('click', () => {
+        document.querySelectorAll('.faq-item.active').forEach(activeItem => {
+            if (activeItem !== item) {
+                activeItem.classList.remove('active');
+            }
+            });
+            item.classList.toggle('active');
+        });
+    });
+  </script>
+  <script>
+    function openModal(modalId) {
+    const modal = document.getElementById(modalId);
+    modal.classList.add('active');
+    }
+
+    function closeModal(modalId) {
+        const modal = document.getElementById(modalId);
+        modal.classList.remove('active');
+    }
+
+    document.getElementById('modal-close-1').addEventListener('click', () => closeModal('modal-overlay-1'));
+    document.getElementById('modal-close-2').addEventListener('click', () => closeModal('modal-overlay-2'));
+    document.getElementById('modal-close-3').addEventListener('click', () => closeModal('modal-overlay-3'));
+    document.getElementById('modal-close-4').addEventListener('click', () => closeModal('modal-overlay-4'));
+    document.getElementById('modal-close-5').addEventListener('click', () => closeModal('modal-overlay-5'));
+    document.getElementById('modal-close-6').addEventListener('click', () => closeModal('modal-overlay-6'));
+    document.getElementById('modal-close-7').addEventListener('click', () => closeModal('modal-overlay-7'));
+
+    document.getElementById('modal-overlay-1').addEventListener('click', (e) => {
+        if (e.target.id === 'modal-overlay-1') closeModal('modal-overlay-1');
+    });
+
+    document.getElementById('modal-overlay-2').addEventListener('click', (e) => {
+        if (e.target.id === 'modal-overlay-2') closeModal('modal-overlay-2');
+    });
+
+    document.getElementById('modal-overlay-3').addEventListener('click', (e) => {
+        if (e.target.id === 'modal-overlay-3') closeModal('modal-overlay-3');
+    });
+
+    document.getElementById('modal-overlay-4').addEventListener('click', (e) => {
+        if (e.target.id === 'modal-overlay-4') closeModal('modal-overlay-4');
+    });
+
+    document.getElementById('modal-overlay-5').addEventListener('click', (e) => {
+        if (e.target.id === 'modal-overlay-5') closeModal('modal-overlay-5');
+    });
+
+    document.getElementById('modal-overlay-6').addEventListener('click', (e) => {
+        if (e.target.id === 'modal-overlay-6') closeModal('modal-overlay-6');
+    });
+
+    document.getElementById('modal-overlay-7').addEventListener('click', (e) => {
+        if (e.target.id === 'modal-overlay-7') closeModal('modal-overlay-7');
+    });
+  </script>
+</body>
+</html>
